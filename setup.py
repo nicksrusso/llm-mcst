@@ -5,7 +5,7 @@ test_dependencies = []
 
 setup(
     name='llm-mcst',
-    version='0.0.1',
+    version='0.0.0',
     description='this is a python package',
     author='nick',
     author_email='your.email@example.com',

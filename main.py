@@ -2,8 +2,7 @@ import ollama
 import argparse
 import os
 import json
-import generator
-
+from agents.generator import Generator
 
 if __name__=="__main__":
     model="phi-3.5"
@@ -31,5 +30,5 @@ if __name__=="__main__":
     with open(args.argument_file, 'r') as f:
         settings = json.load(f)
         
-    gen = generator.Generator(model=settings['model'], settings=settings)
+    gen = Generator(model=settings['model'], settings=settings)
     print()

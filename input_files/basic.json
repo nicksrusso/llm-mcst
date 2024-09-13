@@ -6,5 +6,12 @@
     "num_votes": 10,
     "max_depth": 5,
     "discount_factor": 1,
-    "exploration_weight": 2
+    "exploration_weight": 2,
+    "possible_actions": [
+        "propose_one_step",
+        "propose_remaing_steps",
+        "propose_subquestion",
+        "re_answer_question",
+        "re_phrase_question"
+    ]
 }

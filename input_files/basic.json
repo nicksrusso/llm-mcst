@@ -1,0 +1,10 @@
+{
+    "model": "phi-3.5",
+    "prompt_folder_path": "~repos/personal/llm-mcst/prompt_templates/GSM8KHARD",
+    "num_subquestions": 3,
+    "num_rollouts": 15,
+    "num_votes": 10,
+    "max_depth": 5,
+    "discount_factor": 1,
+    "exploration_weight": 2
+}

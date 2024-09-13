@@ -1,0 +1,1 @@
+# Contains jsons to be read in and define inputs for algorithm
